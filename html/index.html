@@ -4,8 +4,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>rock, paper, scissors</title>
-    <!-- <link rel="stylesheet" href="/css/styles.css" /> -->
-    <script src="/js/javascript.js"></script>
+    <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header class="main_header">
+        <h2 class="display_title">Let's Play</h2>
+      </header>
+
+      <section class="result_box">
+        <h1 class="player_choice">✊</h1>
+        <h1 class="versus">VS</h1>
+        <h1 class="computer_choice">✊</h1>
+      </section>
+
+      <section class="score_box">
+        <h4>Won: <span class="won_score">0</span></h4>
+        <div class="divider"></div>
+        <h4>Draw: <span class="draw_score">0</span></h4>
+        <div class="divider"></div>
+        <h4>Lost: <span class="lose_score">0</span></h4>
+      </section>
+
+      <section class="option_choice">
+        <div class="option_wrapper">
+          <button class="btn" value="rock">✊</button>
+          <h3 class="chose_label">Rock</h3>
+        </div>
+
+        <div class="option_wrapper">
+          <button class="btn" value="paper">✋</button>
+          <h3 class="chose_label">Paper</h3>
+        </div>
+
+        <div class="option_wrapper">
+          <button class="btn" value="scissors">✌️</button>
+          <h3 class="chose_label">Scissors</h3>
+        </div>
+      </section>
+
+      <section class="reset_section">
+        <button class="reset_btn">Reset Game</button>
+      </section>
+    </main>
+    <script src="/js/javascript.js"></script>
+  </body>
 </html>
